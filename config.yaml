@@ -1,0 +1,32 @@
+baseURL: 'https://rikdewit.nl'
+languageCode: 'en-us'
+title: 'Rik de Wit'
+theme: 'papermod'
+
+
+
+params:
+    ShowReadingTime: true
+    homeInfoParams:
+        Title: My blog experiment
+        Content: >
+         Here I will share my projects and thoughts.
+         
+         If you would like to contact me\: rikdewit1997@gmail.com
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/rikdewit"
+        - name: buymeacoffee
+          url: "https://www.buymeacoffee.com/rikdewit"
+        - name: instagram
+          url: "https://instagram.com/woesnos"
+
+    author: Rik
+    disableScrollToTop: false
+menu:
+    main:
+        - identifier: categories
+          name: Archive
+          url: /archive/
+          weight: 10
