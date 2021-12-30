@@ -2,5 +2,5 @@
 node_modules
 dist
 tmp
-# /public/
+/public/
 .hugo_build.lock
