@@ -7,7 +7,7 @@ cover:
 
 Welcome to my website.  
 
-I got the idea to start this adventure by reading [Paul Graham's blog](http://www.paulgraham.com). Besides creating the Lisp programming language and cofounding the startup accelerator YCombinator, he has a blog of his own. In a post he wrote about the difference of smart people and smart people who have lots of new ideas. Being smart doesn't necessarily mean you create new ideas.  
+I got the idea to start this adventure by reading [Paul Graham's blog](http://www.paulgraham.com). Besides creating the Lisp programming language and cofounding the startup accelerator YCombinator, he has a blog of his own. In a post he wrote about the difference between smart people and smart people who have lots of new ideas. Being smart doesn't necessarily mean you create new ideas.  
 
 Paul argues that there are techniques you can use to come up with ideas. One of them is having your own projects besides school/work where you can be independent and learn in a way that resembles playing. (he calls it skating) Apparently many big companies started in this way. Another way to get new ideas is by writing down your thoughts. This will process them on a deeper level and organize them.
 
