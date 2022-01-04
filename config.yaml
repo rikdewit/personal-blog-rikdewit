@@ -24,6 +24,10 @@ params:
 
     author: Rik
     disableScrollToTop: false
+    comments: true
+    # comments_css: "css/comments.css"
+
+
 menu:
     main:
         - identifier: categories
