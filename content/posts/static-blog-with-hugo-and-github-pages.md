@@ -1,14 +1,14 @@
 ---
-title: "Creating a blog with hugo and Github Pages"
+title: "Creating a blog with Hugo and Github Pages"
 date: 2022-01-04T13:53:20+01:00
 author: "Rik"
-draft: true
+draft: false
 ---
 
 Hugo is a static site generator.
 This means it creates static html and css files which you then upload to your server to host them.
-It is a back to basics approach in a world where javascript bundle sizes are going through the roof.
-- THROUGH THE ROOF GIF
+It is a back to basics approach in a world where javascript bundle sizes are going through the roof. Not only does less javascript mean faster load times and a better experience. Less dependencies make sure you don't have to maintain your code as much.
+![Everything is fine javascript](/img/this-is-fine.jpeg)
 
 You don't need a database to retrieve posts when you can just use html and links the way they were intended in the 90's.
 
@@ -45,7 +45,7 @@ In your config.toml set your theme.
 theme = "papermod"
 ```
 
-Every theme as its own custom configurations you can set.
+Every theme has its own custom configurations you can set.
 
 ---
 
@@ -88,8 +88,7 @@ While you could generate your static files using Hugo and put the contents of ./
 With a Github Workflow you can automate the deployment.
 
 ```
-mkdir .github
-mkdir .github/workflows
+mkdir .github/ .github/workflows
 touch .github/workflows/gh-pages.yml
 ```
 \
@@ -130,12 +129,14 @@ jobs:
           publish_dir: ./public
           cname: <your_blog_domain_name>
 ```
-Make sure your branch is set correctly \
-Usually `master` or `main`
 
 Change `CNAME` to your domain name if you don't want to use `<github_username>.github.io` as your url\
-Also make a CNAME record in your DNS-settings of your DNS-provider pointing to your github.io url
+Also make a CNAME record in your DNS-settings of your DNS-provider pointing to your the url
 
+Change your baseURL in `config.toml` to your domain name.
+```
+baseURL = 'https://<domainname>'
+```
 ---
 
 ## Publish on Github
@@ -156,11 +157,22 @@ git push -u origin master
 
 ## Change Pages settings
 
-Make sure the build action completed successfuly
+Make sure the build action completed successfuly in Githubs `Actions` page
 
-Go to `settings/pages` on the your github repo\
-Set the `Source` to the gh-pages branch\
-Set your custom domain name
+- Go to `Settings/pages` on the your github repo
+- Set the Source to the `gh-pages` branch
+- Set your domain name
+
+--- 
+
+That's it. \
+You can visit your blog on your domain name and make posts via git commits.
+If you found any errors in this post, please make a pull request.
+### Happy blogging!
+
+![Borat great success](/img/great-success.jpeg)
+
+
 
 
 

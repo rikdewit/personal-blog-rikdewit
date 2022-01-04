@@ -6,6 +6,11 @@ theme: 'PaperMod'
 
 
 params:
+    editPost:
+        URL: "https://github.com/rikdewit/personal-blog-rikdewit/tree/master/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+
     ShowReadingTime: true
     homeInfoParams:
         Title: My blog experiment
