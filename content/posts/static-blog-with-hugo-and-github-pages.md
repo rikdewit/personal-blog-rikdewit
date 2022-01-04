@@ -130,8 +130,8 @@ jobs:
           cname: <your_blog_domain_name>
 ```
 
-Change `CNAME` to your domain name if you don't want to use `<github_username>.github.io` as your url\
-Also make a CNAME record in your DNS-settings of your DNS-provider pointing to your the url
+Change `CNAME` to your domain name if you don't want to use `<github_username>.github.io` as your url.\
+Also make a CNAME record in your DNS-settings of your DNS-provider pointing to the url.
 
 Change your baseURL in `config.toml` to your domain name.
 ```
@@ -140,10 +140,10 @@ baseURL = 'https://<domainname>'
 ---
 
 ## Publish on Github
-Create a new Github repository on [github.com](https://github.com) and add your remote
+Create a new Github repository on [github.com](https://github.com) and add your remote.
 
 ```
-git remote add origin  <REMOTE_URL> 
+git remote add origin <REMOTE_URL> 
 ```
 
 Push the code.
@@ -157,7 +157,7 @@ git push -u origin master
 
 ## Change Pages settings
 
-Make sure the build action completed successfuly in Githubs `Actions` page
+Make sure the build action completed successfuly in Githubs `Actions` page.
 
 - Go to `Settings/pages` on the your github repo
 - Set the Source to the `gh-pages` branch
