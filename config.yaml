@@ -21,6 +21,8 @@ params:
           url: "https://www.buymeacoffee.com/rikdewit"
         - name: instagram
           url: "https://instagram.com/woesnos"
+        - name: rss
+          url: "/index.xml"
 
     author: Rik
     disableScrollToTop: false
