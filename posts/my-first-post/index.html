@@ -77,7 +77,7 @@ Writing a blog
 </div>
 <footer class=post-footer>
 </footer><link rel=stylesheet href=https://blog.rikdewit.nl/css/comments.css>
-<script>var remark_config={host:'https://remark.rikdewit.nl',site_id:'blog',theme:localStorage.getItem("pref-theme"),simple_view:!0};document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(localStorage.setItem("pref-theme",'light'),window.REMARK42.changeTheme('light')):(localStorage.setItem("pref-theme",'dark'),window.REMARK42.changeTheme('dark'))})</script>
+<script>var remark_config={host:'https://remark.rikdewit.nl',site_id:'blog',theme:document.body.className.includes("dark")?"dark":"light",simple_view:!0};document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(localStorage.setItem("pref-theme",'light'),window.REMARK42.changeTheme('light')):(localStorage.setItem("pref-theme",'dark'),window.REMARK42.changeTheme('dark'))})</script>
 <script>!function(d,b){for(var c=0,a,e,f;c<d.length;c++)a=b.createElement("script"),e=".js",f=b.head||b.body,"noModule"in a?(a.type="module",e=".mjs"):a.async=!0,a.defer=!0,a.src=remark_config.host+"/web/"+d[c]+e,f.appendChild(a)}(remark_config.components||["embed"],document)</script>
 <br>
 <div id=remark42></div>
