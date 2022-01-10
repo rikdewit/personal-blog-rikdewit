@@ -2,7 +2,7 @@ baseURL: 'https://blog.rikdewit.nl'
 languageCode: 'en-us'
 title: 'Rik de Wit'
 theme: 'PaperMod'
-
+enableRobotsTXT: true
 
 
 params:
