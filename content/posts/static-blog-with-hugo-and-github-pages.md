@@ -35,7 +35,7 @@ cd your_blog_name
 ## Adding the PaperMod theme
 
 You can choose different themes as well. [themes.gohugo.io](https://themes.gohugo.io/)
-``` filename=markdown.md
+```
 git init
 git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/papermod 
 ```
