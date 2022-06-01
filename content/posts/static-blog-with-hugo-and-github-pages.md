@@ -159,7 +159,7 @@ git push -u origin master
 
 Make sure the build action completed successfuly in Githubs `Actions` page.
 
-- Go to `Settings/pages` on the your github repo
+- Go to `Settings/pages` on your github repo
 - Set the Source to the `gh-pages` branch
 - Set your domain name
 
